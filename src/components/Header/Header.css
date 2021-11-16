@@ -1,0 +1,16 @@
+.header-section {
+    font-size: 16px;
+    padding: 0px 15px 10px 15px;
+    margin: 10px 30px;
+    border-bottom: 1px solid #ededed;
+}
+
+.header-section .method-name {
+    color: #be71cb;
+}
+
+.header-section .path {
+    color: #6a1b9a;
+    font-weight: bold;
+    font-size: 1.2em;
+}

@@ -1,0 +1,78 @@
+.filters-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.filters-first-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-color: white;
+    height: 35px;
+}
+
+.filters-first-row > div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.filters-first-row .search-container {
+    flex-grow: 22;
+    margin: 0 10px;
+}
+
+.search-container .search-icon-container {
+    background-color: white;
+}
+
+.filters-first-row input.search-input,
+.filters-first-row input.search-input:focus-visible {
+    width: 100%;
+    margin: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+/* .filters-first-row input.search-input,
+.filters-first-row input.search-input:focus-visible {
+    border-right: 1px solid #f3f3f3;
+} */
+
+.filters-first-row .checkbox-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.filters-first-row .checkbox-container input {
+    margin-right: 10px;
+}
+
+.filters-first-row .button-container button {
+    background-color: #6a1b9a;
+    color: white;
+    outline: none;
+    border: none;
+    height: 100%;
+    padding: 0 30px;
+}
+
+.filters-first-row .button-container button:hover {
+    cursor: pointer;
+}
+
+.filters-second-row {
+    display: flex;   
+    flex-flow: row-reverse;
+}
+
+.filters-second-row label {
+    color: #803da8;
+}
+
+.filters-second-row label:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.collapsible-content .collapsible-button {
+    font-weight: bold;
+    text-align: center;
+    width: 120px;
+}
+
+.collapsible-content .collapsible-button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.ui.menu .item {
+    color: #707072 !important;
+}
+
+.ui.secondary.pointing.menu .active.item,
+.ui.secondary.pointing.menu .active.item:hover {
+    color: #4c178d !important;
+    border-color: #4c178d !important;
+}
+
+.ui.secondary.pointing.menu {
+    padding: 0 30px !important; 
+    margin: 0 !important;
+}
+
+.ui.segment {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.ui.secondary.menu {
+    margin: 0 !important;
+}

@@ -1,0 +1,28 @@
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content-table thead,
+.content-table tbody{
+    background-color: white;
+}
+
+.content-table td,
+.content-table th {
+    padding: 10px 30px;
+}
+
+.content-table th {
+    color: #b154c1;
+    text-align: left;
+    
+}
+
+.content-table tbody.tbody-space::before {
+    line-height: 3px;
+    content: "@";
+    display: block;
+    text-indent: -99999px;
+    background-color: #f0f0f0;
+}
